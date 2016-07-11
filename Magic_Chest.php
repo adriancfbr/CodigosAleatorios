@@ -11,6 +11,10 @@ if ($nivel == null) {
  echo "erro informações invalidas";
  return;
 }
+if ($nivel <= 0) {
+echo "EPA, Você não pode usar este valor";
+ return;
+}
 
 
 $Apostar = $nivel*30;
