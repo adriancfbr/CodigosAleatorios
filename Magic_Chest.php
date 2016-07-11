@@ -1,5 +1,10 @@
 <?php
+/*
+Codigo criado por @AdrianCF
+Para https://github.com/adriancfbr/CodigosAleatorios
+Obs: Codigo sem utilidade nenhuma
 
+*/
 $nivel = $_GET['chaves'];
 
 if ($nivel == null) {
