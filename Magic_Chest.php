@@ -7,12 +7,8 @@ Obs: Codigo sem utilidade nenhuma
 */
 $nivel = $_GET['chaves'];
 
-if ($nivel == null) {
- echo "erro informações invalidas";
- return;
-}
-if ($nivel <= 0) {
-echo "EPA, Você não pode usar este valor";
+if (($nivel == null) || ($nivel <= 0)|| ($nivel >= 9999)) {
+ echo "EPA, Você não pode usar este valor";
  return;
 }
 
