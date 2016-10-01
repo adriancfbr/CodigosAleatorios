@@ -1,0 +1,18 @@
+    @font-face {
+      font-family: 'Circular-Book';
+      font-style: normal;
+      font-weight: normal;
+        src: url('../fonts/lineto-circular-book.eot');
+        src: url('../fonts/lineto-circular-book.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/lineto-circular-book.woff') format('woff'),
+             url('../fonts/lineto-circular-book.svg#lineto-circular-book') format('svg');
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      @font-face {
+        font-family: 'Circular-Book';
+        font-style: normal;
+        font-weight: normal;
+          src: url('../fonts/lineto-circular-book.svg#lineto-circular-book') format('svg');
+      }
+    }
